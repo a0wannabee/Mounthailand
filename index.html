@@ -5,9 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Mounthailand Coffee - Premium Grade 1 Robusta coffee from Temanggung, Indonesia. Medium+ roast, rich aroma, and authentic taste.">
+        content="Mounthailand Coffee - Premium Grade 1 Robusta coffee from Temanggung, Central Java, Indonesia. Medium+ roast, rich aroma, and authentic chocolate notes.">
     <meta name="keywords"
         content="Mounthailand Coffee, Robusta Temanggung, Indonesian Coffee, Premium Coffee Beans, Medium Roast, Artisan Coffee">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://instagram.com/mounthailand_coffee.tmng">
+    <meta property="og:title" content="Mounthailand Coffee | Premium Artisan Robusta Temanggung">
+    <meta property="og:description"
+        content="Premium Grade 1 Robusta coffee from Temanggung, Indonesia. Medium+ roast, rich aroma, and authentic taste.">
+    <meta property="og:image" content="assets/products/product powder.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Mounthailand Coffee | Premium Artisan Robusta Temanggung">
+    <meta property="twitter:description"
+        content="Premium Grade 1 Robusta coffee from Temanggung, Indonesia. Medium+ roast, rich aroma, and authentic taste.">
+
     <title>Mounthailand Coffee | Premium Artisan Robusta Temanggung</title>
 
     <!-- Google Fonts -->
@@ -17,6 +32,7 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+<<<<<<< HEAD
     <!-- CSS Styles -->
     <style>
         /* CSS RESET & VARIABLES */
@@ -1599,36 +1615,47 @@
             }
         }
     </style>
+=======
+>>>>>>> eff7705 (Refactor website structure and improve UI)
     <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="logocoffee.jpeg">
+    <link rel="icon" type="image/jpeg" href="assets/logo/logocoffee.jpeg">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <!-- PRELOADER -->
     <div class="preloader" id="preloader">
-        <img src="logocoffee.jpeg" alt="Mounthailand Coffee Logo" class="preloader-logo">
+        <img src="assets/logo/logocoffee.jpeg" alt="Mounthailand Coffee" class="preloader-logo">
     </div>
 
-    <!-- BACKGROUND GLOW EFFECTS -->
+    <!-- BACKGROUND GLOWS -->
     <div class="bg-glow-1"></div>
     <div class="bg-glow-2"></div>
 
-    <!-- HEADER / NAVBAR -->
-    <header class="navbar" id="navbar">
+    <!-- ============================================
+         NAVBAR
+         ============================================ -->
+    <header class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
         <div class="container">
             <a href="#home" class="logo-container">
-                <img src="logocoffee.jpeg" alt="Mounthailand Coffee Logo" class="navbar-logo">
+                <img src="assets/logo/logocoffee.jpeg" alt="Mounthailand Coffee" class="navbar-logo">
             </a>
 
             <nav>
                 <ul class="nav-menu" id="nav-menu">
                     <li><a href="#home" class="nav-link active">Home</a></li>
+<<<<<<< HEAD
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#benefits" class="nav-link">Benefits</a></li>
+=======
+>>>>>>> eff7705 (Refactor website structure and improve UI)
                     <li><a href="#products" class="nav-link">Products</a></li>
                     <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="https://wa.me/6283198892832" target="_blank" rel="noopener noreferrer"
+                            class="nav-cta-btn">Order Now</a></li>
                 </ul>
             </nav>
 
@@ -1640,65 +1667,32 @@
         </div>
     </header>
 
-    <!-- HERO SECTION -->
+    <!-- ============================================
+         HERO
+         ============================================ -->
     <section class="hero" id="home">
         <div class="hero-bg-container">
             <div class="hero-bg" id="hero-bg"></div>
             <div class="hero-overlay"></div>
         </div>
+        <div class="floating-beans-container" id="beans-hero"></div>
 
         <div class="container">
             <span class="hero-tag">Artisan Single Origin</span>
-            <h1 class="hero-title">MOUNTHAILAND COFFEE</h1>
-            <p class="hero-subtitle">Premium Robusta Coffee from Temanggung</p>
-
-            <div class="hero-bullets">
-                <div class="hero-bullet">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Selected Grade 1 Beans
-                </div>
-                <div class="hero-bullet">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Medium+ Roast
-                </div>
-                <div class="hero-bullet">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Rich Aroma
-                </div>
-                <div class="hero-bullet">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Smooth Taste
-                </div>
-                <div class="hero-bullet">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <polyline points="20 6 9 17 4 12" />
-                    </svg>
-                    Authentic Indonesian Coffee
-                </div>
-            </div>
+            <h1 class="hero-title">MOUNTHAILAND<br>COFFEE</h1>
+            <p class="hero-subtitle">Premium Robusta from Temanggung</p>
+            <p class="hero-origin">Grade 1 <span>•</span> Medium+ Roast <span>•</span> Rich Aroma</p>
 
             <div class="hero-actions">
                 <a href="https://wa.me/6283198892832" target="_blank" rel="noopener noreferrer" class="btn btn-gold">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round">
                         <path
                             d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
                     </svg>
-                    Order via WhatsApp
+                    Order Now
                 </a>
+<<<<<<< HEAD
                 <a href="https://instagram.com/mounthailand_coffee.tmng" target="_blank" rel="noopener noreferrer"
                     class="btn btn-outline">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1746,22 +1740,145 @@
                         heritage.
                     </p>
                 </div>
+=======
+>>>>>>> eff7705 (Refactor website structure and improve UI)
             </div>
         </div>
     </section>
 
-    <!-- FEATURES / BENEFITS SECTION -->
-    <section class="section" id="benefits" style="background-color: #0b0b0b;">
+    <!-- ============================================
+         PRODUCTS
+         ============================================ -->
+    <section class="section" id="products">
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">Key Attributes</span>
-                <h2 class="section-title">The Artisan Standard</h2>
-                <p class="section-desc">What makes Mounthailand Coffee a premium local experience, crafted to satisfy
-                    true coffee aficionados.</p>
+                <span class="section-tag">Our Products</span>
+                <h2 class="section-title">Premium Coffee</h2>
+                <p class="section-desc">Handcrafted Grade 1 Robusta from Temanggung, available as ground coffee or
+                    whole roasted beans.</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- PRODUCT 1 — Ground Coffee -->
+                <div class="product-card reveal">
+                    <div class="product-image-container">
+                        <img src="assets/products/product powder.png" alt="Mounthailand Ground Coffee" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat-tag">Ground Coffee</span>
+                        <h3 class="product-title">Ground Robusta</h3>
+                        <div class="product-metadata">
+                            Grade 1 <span>•</span> Medium+ Roast <span>•</span> Temanggung
+                        </div>
+
+                        <div class="product-price-starting">
+                            <span class="starting-label">Starting from</span>
+                            <span class="starting-value">Rp20.000</span>
+                        </div>
+
+                        <div class="product-accordion-wrapper">
+                            <button class="product-accordion-toggle" aria-expanded="false">
+                                <span>View Sizes &amp; Pricing</span>
+                                <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </button>
+                            <div class="product-accordion-content">
+                                <div class="product-price-list">
+                                    <div class="price-item">
+                                        <span class="price-size">100 g</span>
+                                        <span class="price-dots"></span>
+                                        <span class="price-value">Rp20.000</span>
+                                    </div>
+                                    <div class="price-divider"></div>
+                                    <div class="price-item">
+                                        <span class="price-size">250 g</span>
+                                        <span class="price-dots"></span>
+                                        <span class="price-value">Rp45.000</span>
+                                    </div>
+                                    <div class="price-divider"></div>
+                                    <div class="price-item">
+                                        <span class="price-size">500 g</span>
+                                        <span class="price-dots"></span>
+                                        <span class="price-value">Rp86.000</span>
+                                    </div>
+                                    <div class="price-divider"></div>
+                                    <div class="price-item">
+                                        <span class="price-size">1000 g</span>
+                                        <span class="price-dots"></span>
+                                        <span class="price-value">Rp155.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/6283198892832?text=Hallo%2C%20saya%20ingin%20memesan%20Mounthailand%20Ground%20Coffee"
+                            target="_blank" rel="noopener noreferrer" class="product-cta-btn">
+                            Order Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PRODUCT 2 — Roasted Beans -->
+                <div class="product-card reveal reveal-delay-1">
+                    <div class="product-image-container">
+                        <img src="assets/products/product beans.png" alt="Mounthailand Roasted Coffee Beans"
+                            loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat-tag">Whole Beans</span>
+                        <h3 class="product-title">Roasted Beans</h3>
+                        <div class="product-metadata">
+                            Grade 1 <span>•</span> Medium+ Roast <span>•</span> Temanggung
+                        </div>
+
+                        <div class="product-price-starting">
+                            <span class="starting-label">Price</span>
+                            <span class="starting-value-badge">Contact Us</span>
+                        </div>
+
+                        <div class="product-accordion-wrapper">
+                            <button class="product-accordion-toggle" aria-expanded="false">
+                                <span>View Pricing Details</span>
+                                <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </button>
+                            <div class="product-accordion-content">
+                                <div class="product-price-list">
+                                    <div class="price-request-content">
+                                        <span class="price-request-badge">Price on Request</span>
+                                        <p class="price-request-text">Contact us via WhatsApp for pricing and bulk
+                                            orders.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/6283198892832?text=Hallo%2C%20saya%20ingin%20memesan%20Mounthailand%20Roasted%20Coffee%20Beans"
+                            target="_blank" rel="noopener noreferrer" class="product-cta-btn">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         COFFEE PROFILE
+         ============================================ -->
+    <section class="section" id="profile" style="background: #0b0b0b;">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">The Details</span>
+                <h2 class="section-title">Coffee Profile</h2>
+                <p class="section-desc">What makes every cup of Mounthailand exceptional.</p>
             </div>
 
             <div class="features-grid">
-                <!-- FEATURE 1 -->
                 <div class="feature-card reveal">
                     <div class="feature-icon-wrapper">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1770,12 +1887,12 @@
                             <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
                         </svg>
                     </div>
-                    <h3 class="feature-card-title">Grade 1 Robusta</h3>
-                    <p class="feature-card-desc">Only the finest beans make the cut. Meticulously hand-sorted to achieve
-                        zero major defects for a pure, clean brew.</p>
+                    <div class="feature-card-content">
+                        <h3 class="feature-card-title">Grade 1 Robusta</h3>
+                        <p class="feature-card-desc">Hand-sorted beans with zero major defects.</p>
+                    </div>
                 </div>
 
-                <!-- FEATURE 2 -->
                 <div class="feature-card reveal reveal-delay-1">
                     <div class="feature-icon-wrapper">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1784,12 +1901,12 @@
                                 d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
                         </svg>
                     </div>
-                    <h3 class="feature-card-title">Medium+ Roast</h3>
-                    <p class="feature-card-desc">Carefully roasted to highlight the bean's natural sugars, neutralizing
-                        harsh bitterness and accentuating chocolatey notes.</p>
+                    <div class="feature-card-content">
+                        <h3 class="feature-card-title">Medium+ Roast</h3>
+                        <p class="feature-card-desc">Unlocks deep chocolatey sweetness, low acidity.</p>
+                    </div>
                 </div>
 
-                <!-- FEATURE 3 -->
                 <div class="feature-card reveal reveal-delay-2">
                     <div class="feature-icon-wrapper">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1799,41 +1916,39 @@
                             <line x1="12" y1="19" x2="12" y2="22" />
                         </svg>
                     </div>
-                    <h3 class="feature-card-title">Rich Aroma</h3>
-                    <p class="feature-card-desc">The moment you open the pack, you are greeted by an intense, sweet, and
-                        nutty aroma that fills the entire room.</p>
+                    <div class="feature-card-content">
+                        <h3 class="feature-card-title">Rich Aroma</h3>
+                        <p class="feature-card-desc">Intense sweet and nutty aroma in every brew.</p>
+                    </div>
                 </div>
 
-                <!-- FEATURE 4 -->
                 <div class="feature-card reveal">
                     <div class="feature-icon-wrapper">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a2 2 0 0 0 1.414-.586l10.828-10.828a2 2 0 0 0 0-2.828l-3-3a2 2 0 0 0-2.828 0L2.586 17.414Z" />
-                            <path d="m21 16-4-4" />
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                         </svg>
                     </div>
-                    <h3 class="feature-card-title">Balanced Bitterness</h3>
-                    <p class="feature-card-desc">Unlike mass-produced Robusta, our artisan roasting preserves a
-                        pleasant, balanced strength without an unpleasant burnt bite.</p>
+                    <div class="feature-card-content">
+                        <h3 class="feature-card-title">Balanced Body</h3>
+                        <p class="feature-card-desc">Bold strength without harsh burnt bitterness.</p>
+                    </div>
                 </div>
 
-                <!-- FEATURE 5 -->
                 <div class="feature-card reveal reveal-delay-1">
                     <div class="feature-icon-wrapper">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                            <path d="M12 7v5l3 3" />
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
                         </svg>
                     </div>
-                    <h3 class="feature-card-title">Freshly Roasted</h3>
-                    <p class="feature-card-desc">We roast in small batches on demand. We guarantee that your coffee is
-                        freshly sealed shortly after the cooling tray.</p>
+                    <div class="feature-card-content">
+                        <h3 class="feature-card-title">Freshly Roasted</h3>
+                        <p class="feature-card-desc">Small batch, roasted on demand for peak flavor.</p>
+                    </div>
                 </div>
 
-                <!-- FEATURE 6 -->
                 <div class="feature-card reveal reveal-delay-2">
                     <div class="feature-icon-wrapper">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -1842,25 +1957,27 @@
                                 points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
                         </svg>
                     </div>
-                    <h3 class="feature-card-title">Premium Quality</h3>
-                    <p class="feature-card-desc">Every element of our presentation, packaging, and sorting process is
-                        designed to deliver a premium, luxury experience.</p>
+                    <div class="feature-card-content">
+                        <h3 class="feature-card-title">Premium Quality</h3>
+                        <p class="feature-card-desc">Luxury packaging and meticulous sorting process.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <!-- PRODUCTS SECTION -->
-    <section class="section" id="products">
+    <!-- ============================================
+         GALLERY — Photos only, no text
+         ============================================ -->
+    <section class="section" id="gallery">
+        <div class="floating-beans-container" id="beans-gallery"></div>
         <div class="container">
             <div class="section-header reveal">
-                <span class="section-tag">Our Products</span>
-                <h2 class="section-title">Our Products</h2>
-                <p class="section-desc">Choose our premium Ground Robusta Coffee, crafted for perfect everyday brewing
-                    and available in multiple package sizes.</p>
+                <span class="section-tag">Gallery</span>
+                <h2 class="section-title">Our Gallery</h2>
             </div>
 
+<<<<<<< HEAD
             <div class="products-grid">
                 <!-- PRODUCT 1: 100g -->
                 <div class="product-card reveal">
@@ -1939,753 +2056,255 @@
                         <div class="product-price-display">
                             Rp20.000
                         </div>
+=======
+            <div class="gallery-masonry">
+                <div class="gallery-item reveal">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/plantation.jpg" alt="Coffee plantation" loading="lazy">
+>>>>>>> eff7705 (Refactor website structure and improve UI)
                     </div>
                 </div>
 
-                <!-- PRODUCT 2: 250g -->
-                <div class="product-card reveal reveal-delay-1">
-                    <div class="product-image-container">
-                        <div class="product-badge-list">
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Grade 1 Robusta
-                            </span>
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Medium+ Roast
-                            </span>
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Freshly Roasted
-                            </span>
-                        </div>
-                        <img src="product.png" alt="Mounthailand Ground Coffee 250g">
-                    </div>
-                    <div class="product-info">
-                        <span class="product-cat-tag">Package Size: 250 Gram</span>
-                        <h3 class="product-title">Mounthailand Ground Coffee</h3>
-
-                        <p class="product-description">
-                            100% Premium Grade 1 Robusta Coffee from Temanggung with Medium+ Roast.
-                        </p>
-
-                        <ul class="product-features-bullet-list">
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Grade 1 Robusta
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Medium+ Roast
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Freshly Roasted
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Rich Aroma
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Smooth Taste
-                            </li>
-                        </ul>
-
-                        <div class="product-price-display">
-                            Rp45.000
-                        </div>
+                <div class="gallery-item reveal reveal-delay-1">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/coffee-beans.jpg" alt="Roasted coffee beans" loading="lazy">
                     </div>
                 </div>
 
-                <!-- PRODUCT 3: 500g -->
-                <div class="product-card reveal">
-                    <div class="product-image-container">
-                        <div class="product-badge-list">
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Grade 1 Robusta
-                            </span>
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Medium+ Roast
-                            </span>
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Freshly Roasted
-                            </span>
-                        </div>
-                        <img src="product.png" alt="Mounthailand Ground Coffee 500g">
-                    </div>
-                    <div class="product-info">
-                        <span class="product-cat-tag">Package Size: 500 Gram</span>
-                        <h3 class="product-title">Mounthailand Ground Coffee</h3>
-
-                        <p class="product-description">
-                            100% Premium Grade 1 Robusta Coffee from Temanggung with Medium+ Roast.
-                        </p>
-
-                        <ul class="product-features-bullet-list">
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Grade 1 Robusta
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Medium+ Roast
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Freshly Roasted
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Rich Aroma
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Smooth Taste
-                            </li>
-                        </ul>
-
-                        <div class="product-price-display">
-                            Rp86.000
-                        </div>
+                <div class="gallery-item reveal">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/ground-coffee.jpg" alt="Ground coffee" loading="lazy">
                     </div>
                 </div>
 
-                <!-- PRODUCT 4: 1000g -->
-                <div class="product-card reveal reveal-delay-1">
-                    <div class="product-image-container">
-                        <div class="product-badge-list">
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Grade 1 Robusta
-                            </span>
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Medium+ Roast
-                            </span>
-                            <span class="product-badge-item">
-                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Freshly Roasted
-                            </span>
-                        </div>
-                        <img src="product.png" alt="Mounthailand Ground Coffee 1000g">
+                <div class="gallery-item reveal reveal-delay-1">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/cherries.jpg" alt="Coffee cherries" loading="lazy">
                     </div>
-                    <div class="product-info">
-                        <span class="product-cat-tag">Package Size: 1000 Gram</span>
-                        <h3 class="product-title">Mounthailand Ground Coffee</h3>
+                </div>
 
-                        <p class="product-description">
-                            100% Premium Grade 1 Robusta Coffee from Temanggung with Medium+ Roast.
-                        </p>
+                <div class="gallery-item reveal">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/brewing.jpg" alt="Coffee brewing" loading="lazy">
+                    </div>
+                </div>
 
-                        <ul class="product-features-bullet-list">
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Grade 1 Robusta
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Medium+ Roast
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Freshly Roasted
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Rich Aroma
-                            </li>
-                            <li>
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="20 6 9 17 4 12" />
-                                </svg>
-                                Smooth Taste
-                            </li>
-                        </ul>
+                <div class="gallery-item reveal reveal-delay-1">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/roasting.jpg" alt="Roasting process" loading="lazy">
+                    </div>
+                </div>
 
-                        <div class="product-price-display">
-                            Rp155.000
-                        </div>
+                <div class="gallery-item reveal">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/aroma.jpg" alt="Coffee aroma" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal reveal-delay-1">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/workspace.jpg" alt="Coffee workspace" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <div class="gallery-img-wrapper">
+                        <img src="gallery/close-up-beans.jpg" alt="Close-up beans" loading="lazy">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- WHY CHOOSE US SECTION -->
-    <section class="section" id="why-choose-us" style="background-color: #0b0b0b;">
-        <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Pure Origin</span>
-                <h2 class="section-title">Why Mounthailand?</h2>
-                <p class="section-desc">We represent more than just coffee. We bring the rich culture of Indonesian
-                    volcanic highlands straight to your cup.</p>
-            </div>
-
-            <div class="why-grid">
-                <!-- REASON 1 -->
-                <div class="why-card reveal">
-                    <span class="why-number">01</span>
-                    <div class="why-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                        </svg>
-                    </div>
-                    <h3 class="why-title">100% Indonesian</h3>
-                    <p class="why-desc">Sourced directly from our local farming cooperatives in Temanggung, empowering
-                        community agriculture and local farmers.</p>
-                </div>
-
-                <!-- REASON 2 -->
-                <div class="why-card reveal reveal-delay-1">
-                    <span class="why-number">02</span>
-                    <div class="why-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="12 2 2 7 12 12 22 7 12 2" />
-                            <polyline points="2 17 12 22 22 17" />
-                            <polyline points="2 12 12 17 22 12" />
-                        </svg>
-                    </div>
-                    <h3 class="why-title">Premium Robusta</h3>
-                    <p class="why-desc">Grown at high altitudes, yielding small, dense beans that carry robust flavor
-                        characteristics, far superior to normal grades.</p>
-                </div>
-
-                <!-- REASON 3 -->
-                <div class="why-card reveal reveal-delay-2">
-                    <span class="why-number">03</span>
-                    <div class="why-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                            <polyline points="22 4 12 14.01 9 11.01" />
-                        </svg>
-                    </div>
-                    <h3 class="why-title">Carefully Selected</h3>
-                    <p class="why-desc">We implement rigid visual inspection stages, guaranteeing only optimal uniform
-                        cherries are dry processed.</p>
-                </div>
-
-                <!-- REASON 4 -->
-                <div class="why-card reveal">
-                    <span class="why-number">04</span>
-                    <div class="why-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
-                        </svg>
-                    </div>
-                    <h3 class="why-title">Fresh Roast</h3>
-                    <p class="why-desc">Roasting schedule is meticulously maintained so our stock is always within the
-                        prime degassing and aging window.</p>
-                </div>
-
-                <!-- REASON 5 -->
-                <div class="why-card reveal reveal-delay-1">
-                    <span class="why-number">05</span>
-                    <div class="why-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="12" y1="1" x2="12" y2="23" />
-                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
-                        </svg>
-                    </div>
-                    <h3 class="why-title">Affordable Luxury</h3>
-                    <p class="why-desc">By eliminating excessive global logistics chains, we provide direct-to-consumer
-                        gourmet coffee at highly fair rates.</p>
-                </div>
-
-                <!-- REASON 6 -->
-                <div class="why-card reveal reveal-delay-2">
-                    <span class="why-number">06</span>
-                    <div class="why-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3" />
-                        </svg>
-                    </div>
-                    <h3 class="why-title">Trusted Quality</h3>
-                    <p class="why-desc">Strict consistency measures ensure that the flavor profile of the bag you order
-                        today is as stellar as the next.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- TESTIMONIALS SECTION -->
-    <section class="section" id="testimonials">
+    <!-- ============================================
+         TESTIMONIALS — 4 testimonials
+         ============================================ -->
+    <section class="section" id="testimonials" style="background: #0b0b0b;">
         <div class="container">
             <div class="section-header reveal">
                 <span class="section-tag">Reviews</span>
-                <h2 class="section-title">What Our Customers Say</h2>
-                <p class="section-desc">Real stories and feedback from coffee lovers who have integrated Mounthailand
-                    Coffee into their daily rituals.</p>
+                <h2 class="section-title">What Customers Say</h2>
             </div>
 
-            <div class="testimonials-grid">
-                <!-- TESTIMONIAL 1 -->
-                <div class="testimonial-card reveal">
-                    <div class="testimonial-stars">
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                    </div>
-                    <p class="testimonial-text">
-                        "Kopinya harum banget. Pas pertama diseduh aromanya langsung memenuhi ruangan. Rasanya kuat tapi
-                        tetap smooth, cocok diminum setiap pagi."
-                    </p>
-                    <div class="testimonial-user">
-                        <div class="testimonial-avatar">H</div>
-                        <div class="testimonial-user-info">
-                            <h4>Hakim</h4>
-                            <p>Penikmat Kopi, Jakarta</p>
+            <div class="testimonials-carousel-wrapper">
+                <button class="carousel-arrow prev" aria-label="Previous testimonial">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+
+                <div class="testimonials-carousel-container" id="testimonials-carousel-container">
+                    <div class="testimonials-carousel-track" id="testimonials-carousel-track">
+                        <!-- TESTIMONIAL 1 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-stars">
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                </div>
+                                <p class="testimonial-text">
+                                    "Kopinya harum banget. Pas pertama diseduh aromanya langsung memenuhi ruangan.
+                                    Rasanya kuat tapi tetap smooth."
+                                </p>
+                                <div class="testimonial-user">
+                                    <div class="testimonial-avatar">H</div>
+                                    <div class="testimonial-user-info">
+                                        <h4>Hakim</h4>
+                                        <p>Penikmat Kopi, Jakarta</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TESTIMONIAL 2 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-stars">
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                </div>
+                                <p class="testimonial-text">
+                                    "Mounthailand punya karakter yang paling balance. Tidak terlalu pahit dan
+                                    aftertastenya enak. Recommended!"
+                                </p>
+                                <div class="testimonial-user">
+                                    <div class="testimonial-avatar">I</div>
+                                    <div class="testimonial-user-info">
+                                        <h4>Ifham Ilmy</h4>
+                                        <p>Penikmat Robusta, Yogyakarta</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TESTIMONIAL 3 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-stars">
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                </div>
+                                <p class="testimonial-text">
+                                    "Packing rapi, pengiriman cepat, dan kualitas kopinya benar-benar premium. Sangat
+                                    cocok dijadikan oleh-oleh."
+                                </p>
+                                <div class="testimonial-user">
+                                    <div class="testimonial-avatar">B</div>
+                                    <div class="testimonial-user-info">
+                                        <h4>Baihaqi</h4>
+                                        <p>Pelanggan Setia, Bandung</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- TESTIMONIAL 4 (NEW) -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-stars">
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                    <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" /></svg>
+                                </div>
+                                <p class="testimonial-text">
+                                    "Kopi robusta terbaik yang pernah saya coba. Rasanya full body, cocok untuk
+                                    tubruk maupun espresso. Pasti repeat order!"
+                                </p>
+                                <div class="testimonial-user">
+                                    <div class="testimonial-avatar">D</div>
+                                    <div class="testimonial-user-info">
+                                        <h4>Dimas Prasetyo</h4>
+                                        <p>Barista, Semarang</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- TESTIMONIAL 2 -->
-                <div class="testimonial-card reveal reveal-delay-1">
-                    <div class="testimonial-stars">
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                    </div>
-                    <p class="testimonial-text">
-                        "Saya sudah coba banyak kopi robusta, tapi Mounthailand punya karakter yang paling balance.
-                        Tidak terlalu pahit dan aftertastenya enak."
-                    </p>
-                    <div class="testimonial-user">
-                        <div class="testimonial-avatar">I</div>
-                        <div class="testimonial-user-info">
-                            <h4>Ifham Ilmy</h4>
-                            <p>Penikmat Robusta, Yogyakarta</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- TESTIMONIAL 3 -->
-                <div class="testimonial-card reveal reveal-delay-2">
-                    <div class="testimonial-stars">
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                        <svg viewBox="0 0 24 24">
-                            <polygon
-                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                        </svg>
-                    </div>
-                    <p class="testimonial-text">
-                        "Packing rapi, pengiriman cepat, dan kualitas kopinya benar-benar premium. Sangat cocok
-                        dijadikan oleh-oleh maupun stok di rumah."
-                    </p>
-                    <div class="testimonial-user">
-                        <div class="testimonial-avatar">B</div>
-                        <div class="testimonial-user-info">
-                            <h4>Baihaqi</h4>
-                            <p>Pelanggan Setia, Bandung</p>
-                        </div>
-                    </div>
-                </div>
+                <button class="carousel-arrow next" aria-label="Next testimonial">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
             </div>
         </div>
     </section>
 
-    <!-- CALL TO ACTION (CTA) SECTION -->
-    <section class="cta reveal">
+    <!-- ============================================
+         CTA
+         ============================================ -->
+    <section class="cta-section reveal">
+        <div class="floating-beans-container" id="beans-cta"></div>
         <div class="container">
             <div class="cta-container">
-                <h2 class="cta-title">Enjoy Authentic Temanggung Coffee Today</h2>
-                <p class="cta-desc">Indulge in the luxurious bold taste of volcanic single-origin Robusta. We deliver
-                    fresh batches directly to your doorstep across Indonesia.</p>
-                <div class="cta-actions">
-                    <a href="https://wa.me/6283198892832" target="_blank" rel="noopener noreferrer"
-                        class="btn btn-gold">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-                        </svg>
-                        Order via WhatsApp
-                    </a>
+                <h2 class="cta-title">Ready to Taste the Difference?</h2>
+                <p class="cta-desc">Order premium Temanggung Robusta directly via WhatsApp. Fresh roasted and delivered
+                    to your door.</p>
+                <a href="https://wa.me/6283198892832" target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                    </svg>
+                    Order Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home">
+                    <img src="assets/logo/logocoffee.jpeg" alt="Mounthailand Coffee" class="footer-logo">
+                </a>
+
+                <div class="footer-socials">
                     <a href="https://instagram.com/mounthailand_coffee.tmng" target="_blank" rel="noopener noreferrer"
-                        class="btn btn-outline">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        class="footer-social-link" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
                             <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                             <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                         </svg>
-                        Chat on Instagram
+                    </a>
+                    <a href="https://wa.me/6283198892832" target="_blank" rel="noopener noreferrer"
+                        class="footer-social-link" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                        </svg>
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- FOOTER -->
-    <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-grid">
-                <!-- COL 1: BRAND -->
-                <div class="footer-logo-col">
-                    <a href="#home" class="logo-container">
-                        <img src="logocoffee.jpeg" alt="Mounthailand Coffee Logo" class="footer-logo">
-                    </a>
-                    <p class="footer-logo-desc">
-                        Providing artisan Grade 1 Single-Origin Robusta Coffee directly sourced from the volcanic soils
-                        of Temanggung, Central Java. Roasting luxury with local heart.
-                    </p>
-                    <div class="footer-socials">
-                        <a href="https://instagram.com/mounthailand_coffee.tmng" target="_blank"
-                            rel="noopener noreferrer" class="footer-social-link" aria-label="Follow us on Instagram">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-                            </svg>
-                        </a>
-                        <a href="https://wa.me/6283198892832" target="_blank" rel="noopener noreferrer"
-                            class="footer-social-link" aria-label="Chat on WhatsApp">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path
-                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                <p class="footer-address">Temanggung, Central Java, Indonesia &nbsp;•&nbsp; +62 831-9889-2832</p>
 
-                <!-- COL 2: QUICK LINKS -->
-                <div>
-                    <h3 class="footer-title">Navigation</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#products">Our Coffee</a></li>
-                        <li><a href="#benefits">The Process</a></li>
-                        <li><a href="#testimonials">Reviews</a></li>
-                    </ul>
-                </div>
-
-                <!-- COL 3: CHANNELS -->
-                <div>
-                    <h3 class="footer-title">Order Channels</h3>
-                    <ul class="footer-links">
-                        <li><a href="https://wa.me/6283198892832" target="_blank" rel="noopener noreferrer">WhatsApp
-                                Chat</a></li>
-                        <li><a href="https://instagram.com/mounthailand_coffee.tmng" target="_blank"
-                                rel="noopener noreferrer">Instagram DM</a></li>
-                        <li><a href="tel:+6283198892832">Direct Call Support</a></li>
-                    </ul>
-                </div>
-
-                <!-- COL 4: CONTACT INFO -->
-                <div>
-                    <h3 class="footer-title">Contact & Origin</h3>
-                    <div class="footer-info">
-                        <div class="footer-info-item">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z" />
-                                <circle cx="12" cy="10" r="3" />
-                            </svg>
-                            <span>Temanggung, Central Java, Indonesia</span>
-                        </div>
-                        <div class="footer-info-item">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                            </svg>
-                            <a href="tel:+6283198892832">+62 831-9889-2832</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 Mounthailand Coffee. All Rights Reserved. Crafted with pride in Indonesia.</p>
-                <p>Designed for coffee excellence.</p>
+                <p class="footer-copyright">&copy; 2026 Mounthailand Coffee. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- JAVASCRIPT CODE -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // NAVBAR SCROLL EFFECT
-            const navbar = document.getElementById('navbar');
-            const handleScrollNavbar = () => {
-                if (window.scrollY > 50) {
-                    navbar.classList.add('navbar-scrolled');
-                } else {
-                    navbar.classList.remove('navbar-scrolled');
-                }
-            };
-            window.addEventListener('scroll', handleScrollNavbar);
-            handleScrollNavbar(); // Initial state check
-
-            // MOBILE NAVIGATION MENU
-            const mobileToggle = document.getElementById('mobile-toggle');
-            const navMenu = document.getElementById('nav-menu');
-            const navLinks = document.querySelectorAll('.nav-link');
-
-            mobileToggle.addEventListener('click', () => {
-                mobileToggle.classList.toggle('active');
-                navMenu.classList.toggle('active');
-            });
-
-            navLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    mobileToggle.classList.remove('active');
-                    navMenu.classList.remove('active');
-                });
-            });
-
-            // ACTIVE LINK STATE ON SCROLL
-            const sections = document.querySelectorAll('section');
-            const handleActiveLink = () => {
-                let current = '';
-                const scrollPos = window.scrollY + 200; // Offset for navbar height
-
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.offsetHeight;
-                    if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
-                        current = section.getAttribute('id');
-                    }
-                });
-
-                navLinks.forEach(link => {
-                    link.classList.remove('active');
-                    if (link.getAttribute('href').slice(1) === current) {
-                        link.classList.add('active');
-                    }
-                });
-            };
-            window.addEventListener('scroll', handleActiveLink);
-
-            // PARALLAX HERO EFFECT
-            const heroBg = document.getElementById('hero-bg');
-            window.addEventListener('scroll', () => {
-                const scrollOffset = window.pageYOffset;
-                // Move bg image slightly slower than the scroll rate
-                heroBg.style.transform = `translate3d(0, ${scrollOffset * 0.35}px, 0)`;
-            });
-
-            // FLOATING COFFEE BEAN PARTICLES
-            const createFloatingBeans = () => {
-                const hero = document.getElementById('home');
-
-                // SVG representation of a detailed stylized coffee bean
-                const beanSVG = `
-                    <svg viewBox="0 0 100 100" width="100%" height="100%" fill="currentColor">
-                        <path d="M50 10 C 25 10, 15 35, 15 55 C 15 75, 30 90, 50 90 C 70 90, 85 75, 85 55 C 85 35, 75 10, 50 10 Z 
-                                 M 47.5 89 C 48.5 75, 41 62, 50 45 C 59 28, 51.5 15, 52.5 11" 
-                              stroke="#0F0F0F" stroke-width="4" stroke-linecap="round"/>
-                    </svg>
-                `;
-
-                const totalBeans = 12;
-
-                for (let i = 0; i < totalBeans; i++) {
-                    const bean = document.createElement('div');
-                    bean.className = 'floating-bean';
-                    bean.innerHTML = beanSVG;
-
-                    // Random size range: 12px to 32px
-                    const size = Math.random() * 20 + 12;
-                    bean.style.width = `${size}px`;
-                    bean.style.height = `${size}px`;
-
-                    // Random starting horizontal position: 5% to 95%
-                    bean.style.left = `${Math.random() * 90 + 5}%`;
-
-                    // Random animation speed (duration): 12s to 24s
-                    const duration = Math.random() * 12 + 12;
-                    bean.style.animationDuration = `${duration}s`;
-
-                    // Random delay so they don't all float up at once
-                    const delay = Math.random() * -18; // Negative delay starts animation immediately halfway
-                    bean.style.animationDelay = `${delay}s`;
-
-                    // Random initial rotation
-                    const rotate = Math.random() * 360;
-                    bean.style.transform = `rotate(${rotate}deg)`;
-
-                    // Color variants (different shades of premium coffee brown & gold)
-                    const colors = ['#5B3A29', '#3D251A', '#C69C6D', '#784E38', '#A27B5C'];
-                    const randomColor = colors[Math.floor(Math.random() * colors.length)];
-                    bean.style.color = randomColor;
-
-                    hero.appendChild(bean);
-                }
-            };
-            createFloatingBeans();
-
-            // SCROLL REVEAL ANIMATIONS (Intersection Observer)
-            const revealElements = document.querySelectorAll('.reveal');
-            const revealObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('active');
-                        // Once revealed, no need to track again
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, {
-                root: null,
-                threshold: 0.1, // Trigger when 10% of element is visible
-                rootMargin: '0px 0px -50px 0px' // Adjust triggers to fire slightly before entering viewport
-            });
-
-            revealElements.forEach(el => revealObserver.observe(el));
-
-            // PRELOADER FADE OUT
-            const preloader = document.getElementById('preloader');
-            if (preloader) {
-                const fadeOut = () => {
-                    if (!preloader.classList.contains('fade-out')) {
-                        preloader.classList.add('fade-out');
-                    }
-                };
-                if (document.readyState === 'complete') {
-                    setTimeout(fadeOut, 600);
-                } else {
-                    window.addEventListener('load', () => {
-                        setTimeout(fadeOut, 600);
-                    });
-                }
-                // Failsafe in case load event takes too long
-                setTimeout(fadeOut, 3000);
-            }
-        });
-    </script>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
