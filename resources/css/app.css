@@ -226,8 +226,8 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     background: rgba(15, 15, 15, 0.5);
-    backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 50px;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
@@ -453,6 +453,7 @@ h1, h2, h3, h4 {
     border-radius: 20px;
     overflow: hidden;
     transition: var(--transition);
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     display: flex;
     flex-direction: column;
@@ -699,6 +700,7 @@ h1, h2, h3, h4 {
     border-radius: 16px;
     padding: 18px 16px;
     transition: var(--transition);
+    -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
     display: flex;
     align-items: flex-start;
@@ -834,6 +836,7 @@ h1, h2, h3, h4 {
     cursor: pointer;
     z-index: 10;
     transition: var(--transition);
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
 }
 
@@ -852,6 +855,7 @@ h1, h2, h3, h4 {
     border: 1px solid var(--glass-border);
     border-radius: 16px;
     padding: 22px;
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     transition: var(--transition);
     display: flex;
@@ -933,6 +937,7 @@ h1, h2, h3, h4 {
     border-radius: 24px;
     padding: 48px 24px;
     text-align: center;
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     box-shadow: var(--shadow-soft);
     position: relative;
@@ -1315,6 +1320,7 @@ h1, h2, h3, h4 {
         height: 100vh;
         height: 100dvh;
         background: rgba(15, 15, 15, 0.97);
+        -webkit-backdrop-filter: blur(20px);
         backdrop-filter: blur(20px);
         border-left: 1px solid rgba(198, 156, 109, 0.12);
         flex-direction: column;
