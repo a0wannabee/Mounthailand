@@ -28,3 +28,13 @@ Route::get('/assets/{path}', function ($path) {
     }
     abort(404);
 })->where('path', '.*');
+
+Route::get('/gallery/{path}', function ($path) {
+    $filePath = public_path('gallery/' . $path);
+    if (file_exists($filePath)) {
+        return response()->file($filePath, [
+            'Cache-Control' => 'public, max-age=86400',
+        ]);
+    }
+    abort(404);
+})->where('path', '.*');
